@@ -18,3 +18,9 @@ View at: https://mahmood726-cyber.github.io/Sacituzumab_TNBC_LivingMeta/
 ## Data Sources
 
 All trial data sourced exclusively from ClinicalTrials.gov API and published peer-reviewed manuscripts (NEJM, Lancet).
+
+## Tests
+
+Structural integrity smoke test (Node, no network/browser): `node smoke_test.js`.
+It verifies the shipped HTML/JS assets exist, are BOM-free, contain no hardcoded local
+paths, have balanced `<script>` tags, parse cleanly, and contain no unfilled template tokens.
